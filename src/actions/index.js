@@ -17,3 +17,21 @@ export const getRecipesFailure = (error) => ({
   type: c.GET_RECIPES_FAILURE,
   error
 });
+
+export const makeApiCall = () => {
+    return dispatch => {
+      dispatch(requestedRecipes);
+    //   return fetch(`http://localhost:5004/`)
+        .then(function (response) {
+          return response.json()
+        })
+        .then(
+          function (jsonifiedResponse) {
+            console.log(jsonifiedResponse)
+            return dispatch(getRecipesSuccess(jsonifiedResponse));
+          })
+        .catch((error) => {
+          dispatch(getRecipesFailure(error));
+        });
+    }
+  }
