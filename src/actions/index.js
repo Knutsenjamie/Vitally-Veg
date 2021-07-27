@@ -21,7 +21,7 @@ export const getRecipesFailure = (error) => ({
 export const makeApiCall = () => {
     return dispatch => {
       dispatch(requestedRecipes);
-    //   return fetch(`http://localhost:5004/`)
+      return fetch(`http://localhost:5004/`)
         .then(function (response) {
           return response.json()
         })
