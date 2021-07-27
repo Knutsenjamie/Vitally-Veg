@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { makeApiCall } from '../actions';
+import RecipeList from './RecipeList';
 import RecipeDetails from './RecipeDetails';
 import * as a from '../actions';
 
