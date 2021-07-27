@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ReusableForm from './ReusableForm';
 
-
 function EditRecipeForm(props) {
     const { recipe } = props;
     const { name, category, cuisine, ingredients, time, makes, instructions} = e.target;
@@ -25,7 +24,7 @@ function EditRecipeForm(props) {
       <React.Fragment>
         <ReusableForm
           formSubmissionHandler={handleEditRecipeFormSub}
-          buttonText="Update Recipe" />
+          buttonText="Update Recipe"/>
       </React.Fragment>
     );
   }
