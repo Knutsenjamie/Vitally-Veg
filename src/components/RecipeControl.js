@@ -9,7 +9,6 @@ class RecipeControl extends React.Component {
     constructor(props) {
         super(props)
         this.state ={
-        
         }
     }
 
@@ -20,7 +19,7 @@ class RecipeControl extends React.Component {
 
     viewRecipe = (recipePage) => {
         const { dispatch } = this.props;
-        const action = a.getRecipes(recipePage);
+        const action = a.getRecipe(recipePage);
         dispatch(action);
     }
 
