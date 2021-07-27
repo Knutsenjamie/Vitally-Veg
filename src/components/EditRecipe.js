@@ -5,7 +5,7 @@ import ReusableForm from './ReusableForm';
 
 function EditRecipeForm(props) {
     const { recipe } = props;
-    const { name, category, cuisine, ingredients, time, yield, instructions} = e.target;
+    const { name, category, cuisine, ingredients, time, makes, instructions} = e.target;
   
     function handleEditRecipeFormSub(e) {
       e.preventDefault();
@@ -15,7 +15,7 @@ function EditRecipeForm(props) {
         cuisine: cuisine.value,
         ingredients: ingredients.value,
         time: time.value,
-        yield: yield.value,
+        makes: makes.value,
         instructions: instructions.value,
         id: recipe.id
       });
