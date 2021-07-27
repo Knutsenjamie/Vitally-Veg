@@ -20,7 +20,7 @@ class RecipeControl extends React.Component {
 
     viewRecipe = (recipePage) => {
         const { dispatch } = this.props;
-        const action = a.getRecipe(recipePage);
+        const action = a.getRecipes(recipePage);
         dispatch(action);
     }
 
