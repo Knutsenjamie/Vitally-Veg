@@ -18,6 +18,11 @@ export const getRecipesFailure = (error) => ({
   error
 });
 
+export const getRecipe = (selectedRecipe) => ({
+  type: c.GET_RECIPE,
+  selectedRecipe
+});
+
 export const makeApiCall = () => {
     return dispatch => {
       dispatch(requestedRecipes);
