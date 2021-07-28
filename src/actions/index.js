@@ -26,7 +26,7 @@ export const getRecipe = (selectedRecipe) => ({
 export const makeApiCall = () => {
     return dispatch => {
       dispatch(requestedRecipes);
-      return fetch (`http://localhost:5001/api/recipes`)
+      return fetch (`http://localhost:5000/api/Recipes/`)
         .then(function (response) {
           return response.json()
         })

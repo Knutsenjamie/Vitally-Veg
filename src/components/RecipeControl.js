@@ -11,7 +11,7 @@ class RecipeControl extends React.Component {
         this.state ={
         }
     }
-
+    
     componentDidMount() {
         const { dispatch } = this.props;
         dispatch(makeApiCall());
