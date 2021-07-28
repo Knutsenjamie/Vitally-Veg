@@ -8,12 +8,12 @@ function Recipe(props) {
     <React.Fragment>
         <img src={props.recipeImage} alt='recipe photo' className='recipePicture'></img>
         <h1>{props.name}</h1>
-        <h4>{props.category}</h4>
-        <h4>{props.cuisine}</h4>
-        <h4>{props.ingredients}</h4>
-        <h4>{props.time}</h4>
-        <h4>{props.makes}</h4>
-        <h4>{props.instructions}</h4>  
+        <h3><strong>Category:</strong> {props.category}</h3>
+        <h3><strong>Cuisine:</strong> {props.cuisine}</h3>
+        <h4><strong>Ingredients:</strong> {props.ingredients}</h4>
+        <h4><strong>Total Recipe Time:</strong> {props.time}</h4>
+        <h4><strong>Yields:</strong> {props.makes}</h4>
+        <h4><strong>Instructions:</strong> {props.instructions}</h4>  
     </React.Fragment>
     )
 }
