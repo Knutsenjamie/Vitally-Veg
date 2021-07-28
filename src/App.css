@@ -1,6 +1,7 @@
 .recipePicture {
   width: 400px;
   height: 300px;
+  border-radius: 20px;
   background-size: cover;
   background-position: center;
 }
