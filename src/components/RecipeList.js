@@ -12,7 +12,7 @@ function RecipeList(props) {
             currentRecipe={recipe}
             viewRecipe={props.viewRecipe}
             name={recipe.name}
-            recipePicture={recipe.recipePicture}
+            recipeImage={recipe.recipeImage}
             category={recipe.category}
             cuisine={recipe.cuisine}
             ingredients={recipe.ingredients}

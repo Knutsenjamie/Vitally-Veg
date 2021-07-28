@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 function Recipe(props) {
     return (
     <React.Fragment>
-        <img src={props.recipePicture} alt='recipe photo' className='recipePicture'></img>
+        <img src={props.recipeImage} alt='recipe photo' className='recipePicture'></img>
         <h1>{props.name}</h1>
         <h4>{props.category}</h4>
         <h4>{props.cuisine}</h4>
@@ -19,7 +19,7 @@ function Recipe(props) {
 }
 
 Recipe.propTypes = {
-recipePicture: PropTypes.string,
+recipeImage: PropTypes.string,
 name: PropTypes.string,
 category: PropTypes.string,
 cuisine: PropTypes.string,
