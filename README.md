@@ -38,7 +38,7 @@ https://github.com/Knutsenjamie/Vitally-Veg-API.git
 7. To start a development server and view the project in the browser:
   * Run the command 'npm install' to install dependencies
   * Optionally, run the command 'npm run build' to make a bundle of the files
-  * Finally, run the command 'npm run start' to start a development serve.
+  * Finally, run the command 'npm run start' to start a development served.
 
 ## Licensing
 
