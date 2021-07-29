@@ -6,6 +6,17 @@
   background-position: center;
 }
 
+.recipeCard {
+
+  padding: 50px;
+  border-radius: 15px;
+  border: none;
+  max-width: 3000px;
+  background-color: rgba(231,231,231);
+  box-shadow:15px 10px 8px #0000001c;
+  margin-bottom: 50px;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
