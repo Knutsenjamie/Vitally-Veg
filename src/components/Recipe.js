@@ -7,10 +7,14 @@ function Recipe(props) {
     return (
     <React.Fragment>
         <img src={props.recipeImage} alt='recipe photo' className='recipePicture'></img>
+        <hr></hr>
         <h2>{props.name}</h2>
+        <hr></hr>
         <h3><strong>Category:</strong> {props.category}</h3>
         <h3><strong>Cuisine:</strong> {props.cuisine}</h3>
+        <hr></hr>
         <h4><strong>Ingredients:</strong> {props.ingredients}</h4>
+        <hr></hr>
         <h4><strong>Total Recipe Time:</strong> {props.time}</h4>
         <h4><strong>Yields:</strong> {props.makes}</h4>
     <div className ='recipeCard'>
